@@ -1,0 +1,44 @@
+@keyframes line {
+    0% {
+        transform: translate(-100%,0);
+      }
+
+      100% {
+        transform: translate(100%,0);
+      }
+}
+.running-line {
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #F54932;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.running-item {
+    padding-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    animation: line 11s infinite linear;
+}
+
+.dot {
+    padding: 0 10px;
+    font-weight: 900;
+    vertical-align: super;
+}
+
+@media (min-width: 375px) and (max-width:1365px){
+    .running-line {
+        height: 38px;
+        font-size: 16px;
+        line-height: 17.6px;
+        overflow-x: hidden;
+    }
+}

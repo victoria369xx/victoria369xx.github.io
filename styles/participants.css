@@ -1,0 +1,149 @@
+.participants {
+    margin-top: 253px;
+    margin-left: 72px;
+    width: 1200px;
+}
+.participants_small {
+    display: none;
+}
+.participants-flex-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.participants-heading {
+    font-family: 'Merriweather',sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64.8px;
+    text-transform: uppercase;
+}
+
+.participants-carousel {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cntrl-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background-color: #313131;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.carousel-counter {
+    padding: 0 10px;
+    font-family: 'Golos Text',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #313131;
+}
+.participant-card {
+    width: 394px;
+    height: 462px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-name {
+    margin-top: 28px;
+    font-family: 'Golos Text',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #313131;
+}
+
+.card-title {
+    margin-top: 5px;
+    font-family: 'Golos Text',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313131;
+    filter: opacity(60%);
+}
+
+.card-action {
+    margin-top: 20px;
+}
+
+.card-action > button {
+    width: 113px;
+    height: 35px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color:  #3057A2;
+    border: 1px solid #3057A2;
+    border-radius: 60px;
+}
+
+.card-action > button:hover{
+    background-color: #3057A2;
+    color: #fff;
+}
+
+.footer-line {
+    margin-top: 140px;
+}
+
+@media (min-width: 375px) and (max-width:1365px){
+    .participants {
+        max-width: 95%;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .participants_large {
+        display: none;
+    }
+
+    .participants_small {
+        display: block;
+    }
+
+   
+    .participants-heading {
+        padding-left: 20px;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 39.6px;
+    }
+   .card_block_wrapper_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    .participant-card {
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 335px;
+        height: 388px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-img > img {
+        width: 244px;
+    }
+    .participants-cntrl {
+        margin-top: 40px;
+        
+    }
+    .carousel-counter_small {
+        padding: 0 10px;
+        font-family: 'Golos Text',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        color: #313131;
+    }
+}
