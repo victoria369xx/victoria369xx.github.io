@@ -28,7 +28,7 @@
     .lecture-info {
         width:95%;
         margin-top: 20px;
-        padding: 0 20px;
+        box-sizing: border-box;
     }
 
     .lecture-info-text, .lecture-info-img {

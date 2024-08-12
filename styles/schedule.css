@@ -94,9 +94,11 @@ tr:last-child {
     .schedule-img {
         display: flex;
         justify-content: center;
+        box-sizing: border-box;
     }
     .schedule-img > img {
-        width: 335px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .schedule-heading {
@@ -104,6 +106,7 @@ tr:last-child {
         font-size: 28px;
         line-height: 37.8px;
         margin-left: 20px;
+        box-sizing: border-box;
     }
     .schedule-table {
         display: none;

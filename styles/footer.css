@@ -21,7 +21,9 @@ footer > .container > p {
         height: 210px;
     }
     footer > .container > p {
+        display: block;
         width: 95%;
         margin-left: 20px;
+        box-sizing: border-box;
     }
 }
